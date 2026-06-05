@@ -34,6 +34,7 @@ function Dashboard({ user, onLogout }) {
 
   useEffect(() => {
     fetchExpenses();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleAdd = async (e) => {
