@@ -7,7 +7,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid
 } from "recharts";
 
-const API = "http://localhost:8000";
+const API = "https://smartspend-app-ass3.vercel.app";
 
 const CATEGORIES = ["Food", "Transport", "Shopping", "Entertainment", "Health", "Education", "Other"];
 

@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./Auth.css";
 
-const API = "http://localhost:8000";
+const API = "https://smartspend-app-ass3.vercel.app";
 
 function Register({ onSwitch }) {
   const [form, setForm] = useState({ email: "", password: "", full_name: "" });
